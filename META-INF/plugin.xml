@@ -1,0 +1,12 @@
+<idea-plugin version="2">
+  <name>Hippo inspections</name>
+  <description>Inspection for invalid bean properties.</description>
+  <version>1.0</version>
+  <vendor logo="/general/ijLogo.png">Hippo</vendor>
+  <extensions defaultExtensionNs="com.intellij">
+    <inspectionToolProvider implementation="org.onehippo.intellij.inspections.HippoInspectionsProvider"/>
+    <completion.contributor language="any" implementationClass="org.onehippo.intellij.inspections.completion.HippoCompletionContributor"/>
+  </extensions>
+
+
+</idea-plugin>
